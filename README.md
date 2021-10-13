@@ -27,6 +27,7 @@ GO
 ```
 
 点击button，报错：
+```
 System.Exception
   HResult=0x80131500
   Message=ExpressionTree 转换类型错误，值(已成功)，类型(TestFreesql.AppEnum+Type1)，目标类型(TestFreesql.AppEnum+Type2)，未找到请求的值“已成功”。
@@ -68,3 +69,4 @@ System.Exception
 
 内部异常 1:
 ArgumentException: ExpressionTree 转换类型错误，值(已成功)，类型(TestFreesql.AppEnum+Type1)，目标类型(TestFreesql.AppEnum+Type2)，未找到请求的值“已成功”。
+```
